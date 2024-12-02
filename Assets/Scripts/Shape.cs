@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Shape : MonoBehaviour
 {
-    //encapsulation
+    // ENCAPSULATION
     protected string shapeName { get; set; }
    
     [SerializeField] protected GameObject displayText;

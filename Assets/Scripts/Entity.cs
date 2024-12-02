@@ -4,15 +4,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
-public class Entity : Shape //inheritance
+public class Entity : Shape // INHERITANCE
 {
     public string myName;
     public Color myColor;
-    //polymorphism
+    // POLYMORPHISM
     protected override void DisplayText()
     {
-        shapeName = myName;
-       
+        shapeName = myName;       
         base.DisplayText();
                 
     }
@@ -25,7 +24,7 @@ public class Entity : Shape //inheritance
 
     private void Update()
     {
-        //abstraction
+        // ABSTRACTION
         Rotate();
         Move();
     }
