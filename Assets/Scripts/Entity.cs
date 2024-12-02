@@ -20,7 +20,7 @@ public class Entity : Shape //inheritance
     private void Start()
     {
         DisplayText();
-        //GetComponent<Renderer>().material.color = myColor;
+        GetComponent<Renderer>().material.color = myColor;
     }
 
     private void Update()
